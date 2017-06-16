@@ -16,7 +16,6 @@
 To install dependencies, run:
 ```
 bundle install
-
 ```
 
 ## ERD
@@ -30,9 +29,7 @@ bundle install
 
 ## General Approach
 
-Since I knew that I would implementing a frontend framework (for the first time) would be tough, I decided to stick with a simple ERD.
-
-Referring back to my wireframes and user stories guided me in building the backend.
+Since I knew that I would implementing a frontend framework (for the first time) would be tough, I decided to stick with a simple ERD. In building the Colorspiration app, I started with writing user stories, sketching a wireframe, and then building the backend. In building the backend, I tested the routes I built with curl scripts.
 
 I implement use of a 3rd party API (ColorTag) by making ajax calls from client side. I am considering using another 3rd party API (Impalette) instead, which I may try to implement it in the backend insetad of the frontend due to CORS related issues.
 
@@ -46,8 +43,6 @@ then provides an error message and performs the redirect.
 
 
 ## API Routes
-
-### Authentication
 
 #### Users
 | Verb   | URI Pattern            | Controller#Action |
